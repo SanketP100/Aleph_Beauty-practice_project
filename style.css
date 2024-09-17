@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Cardinal;
+    src: url(./fonts/Cardinal\ Fruit.otf);
+}
+@font-face {
+    font-family: Cardinal-lite;
+    src: url(./fonts/Cardinal\ Fruit\ lite.otf);
+}
+@font-face {
+    font-family: Copyright;
+    src: url(./fonts/Copyright\ Klim\ Type\ Foundry.ttf);
+}
+@font-face {
+    font-family: UntitledSansWeb;
+    src: url(./fonts/UntitledSansWeb-Regular.ttf);
+}
+
+.LipTints-overlye:hover{
+ opacity: 1;    
+ /* transition:all ease .3s; */
+}
+
+.LipTints-overlye:hover .overlye-bottom{
+    height: 55px;
+    /* display: block; */
+    transition:all ease .5s;
+   }
+
+.LipTints-overlye:hover .overlye-bottom h3{
+    /* bottom: 0; */
+/* height: 55px; */
+    opacity: 1;    
+    transition:all ease-out .3s;
+   }
+
+.page7-img-contente:hover a{
+    opacity: 1;
+    transition: all ease .5s;
+}
+
+
+@keyframes imgScroller {
+  from{
+    transform: translate(0%);
+  }
+  to{
+    transform: translate(-100%);
+  }
+} 
+
+input:focus~label{
+    top:0;
+    font-size:12px;
+    background:transparent
+}
+
+
+@keyframes page6Scroller {
+    from{
+      transform: translate(0%);
+    }
+    to{
+      transform: translate(-100%);
+    }
+  } 
+  
+
